@@ -292,6 +292,65 @@ do
     issecretvalue = plainCheck
 end
 
+do
+    -- Given strikes that kill their target. Forever drops a dead target, with
+    -- or without PLAYER_TARGET_CHANGED (killing_blow_target_lifecycle.lua), or
+    -- may keep it chosen while dead, and a target that is gone or dead holds
+    -- no points. The player's own points still rise with a strike's point,
+    -- and may fall to none after it.
+    local combo, resources = {}, {}
+    engine.config.presentation.ComboPoints = function(_, gained, total) combo[#combo + 1] = { gained, total } end
+    engine.config.presentation.Resource = function(_, amount, token) resources[#resources + 1] = { amount, token } end
+    local present, dead, power, feedAmount, feedToken = true, false, 0, {}, {}
+    local plainCheck, plainExists, plainDead = issecretvalue, UnitExists, UnitIsDead
+    issecretvalue = function(value) return value == feedAmount or value == feedToken end
+    UnitExists = function(unit) return unit == "target" and present end
+    UnitIsDead = function(unit) return unit == "target" and dead end
+    GetComboPoints = function() return present and not dead and power or 0 end
+    UnitPower = function() return power end
+    C_CombatText = { GetCurrentEventInfo = function() return feedAmount, feedToken end }
+    local function Feed() Event("COMBAT_TEXT_UPDATE", "ENERGIZE") end
+    local function Points(to)
+        power = to
+        Event("UNIT_POWER_UPDATE", "player", "COMBO_POINTS")
+    end
+    local function Lose(announced)
+        present = false
+        if announced then Event("PLAYER_TARGET_CHANGED") end
+    end
+    local function Target()
+        present, dead, power = true, false, 2
+        Event("PLAYER_TARGET_CHANGED")
+        Points(2) Advance(0.02)
+    end
+    local function Wait() Advance(0.02) Advance(0.3) end
+    for _, kill in ipairs({
+        { "point, then loss", function() Feed() Points(3) Lose(false) Points(0) end },
+        { "point, then announced loss", function() Feed() Points(3) Lose(true) end },
+        { "announced loss, then point", function() Feed() Lose(true) Points(3) Points(0) end },
+        { "loss before the feed", function() Lose(false) Feed() Points(3) end },
+        { "point a moment after loss", function() Feed() Lose(true) Advance(0.11) Points(3) end },
+        { "point, then a dead target kept", function() Feed() Points(3) dead = true end },
+    }) do
+        -- When such a strike adds a point to the two on a target.
+        Target()
+        local shown = #combo
+        kill[2]() Wait()
+        -- Then neither its feed line nor a notice is shown.
+        assert(#resources == 0, "a killing strike's combo point was shown as a resource gain: " .. kill[1])
+        assert(#combo == shown, "a combo point on a target that is gone was shown: " .. kill[1])
+    end
+
+    -- When a finisher kills its target and a hidden gain comes with it, before
+    -- or after the points are spent.
+    Target() Feed() Points(0) Lose(true) Wait()
+    Target() Points(0) Feed() Lose(true) Wait()
+    -- Then each such gain is shown.
+    assert(#resources == 2, "a finisher's gain was lost with its target")
+    UnitExists, UnitIsDead, issecretvalue = plainExists, plainDead, plainCheck
+    GetComboPoints, UnitPower, C_CombatText = nil, nil, nil
+end
+
 -- Given an Eye Beam-like channel: a Chaos tooltip with school-124 hits.
 Advance(4)
 Event("UNIT_SPELLCAST_SUCCEEDED", "player", nil, 403)

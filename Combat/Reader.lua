@@ -1650,6 +1650,20 @@ end
 -- gain: the number is taken afresh when the target changes (predicted, not
 -- yet seen in client).
 local function ShowComboPoints()
+    local risen = reader.ownRise or 0
+    reader.ownRise = 0
+    -- A strike that kills its target adds its point to a target that is gone
+    -- by now (Forever drops a dead target), so no notice comes to stand for
+    -- the point's feed line, and none is wanted for a target that died. The
+    -- player's own points rose with it all the same (NoteOwnPoints; on Forever
+    -- the line then went), and each point they rose by takes one held line
+    -- along. A dead target still chosen counts as gone (predicted, not yet
+    -- seen in client). A finisher that kills lowers the points, so a gain
+    -- that comes with it is still shown.
+    if UnitFlag(UnitExists, "target") == false or UnitFlag(UnitIsDead, "target") == true then
+        for _ = 1, risen do table.remove(reader.heldGains, 1) end
+        return
+    end
     local points = ReadComboPoints()
     if not points then return end
     local before = reader.comboPoints or 0
@@ -1659,6 +1673,15 @@ local function ShowComboPoints()
     for _ = 1, points - before do table.remove(reader.heldGains, 1) end
     local router = Router()
     if router then router:ComboPoints(points - before, points) end
+end
+
+-- How far the player's own points rose since the last frame, read as each
+-- update comes: by the next frame a target that was killed may be gone.
+local function NoteOwnPoints()
+    local ok, points = pcall(UnitPower, "player", COMBO_POINTS)
+    if not (ok and ns.Number(points, 0)) then return end
+    reader.ownRise = (reader.ownRise or 0) + math.max(0, points - (reader.ownPoints or 0))
+    reader.ownPoints = points
 end
 
 local EVENTS = {
@@ -1775,7 +1798,10 @@ local function OnEvent(_, event, ...)
         OnCombatText(...)
     elseif event == "UNIT_POWER_UPDATE" then
         local _, kind = ...
-        if ns.Text(kind) and kind == "COMBO_POINTS" then C_Timer.After(0, ShowComboPoints) end
+        if ns.Text(kind) and kind == "COMBO_POINTS" then
+            NoteOwnPoints()
+            C_Timer.After(0, ShowComboPoints)
+        end
     elseif event == "PLAYER_REGEN_DISABLED" then
         OnCombat(true)
     elseif event == "PLAYER_REGEN_ENABLED" then
