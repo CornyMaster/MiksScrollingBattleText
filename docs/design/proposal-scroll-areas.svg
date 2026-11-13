@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" style="max-width: 100%; height: auto" role="img" aria-labelledby="proposal-scroll-areas-title proposal-scroll-areas-desc">
+  <title id="proposal-scroll-areas-title">Proposal: scroll area editor</title>
+  <desc id="proposal-scroll-areas-desc">Screen sketch with draggable areas and their paths; settings of the selected area beside it.</desc>
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="1439" height="899" fill="#17130e" rx="8" stroke="#6e5a33" stroke-width="1"/>
+  <!-- header: title, master switches, profile, close -->
+  <rect x="1" y="1" width="1438" height="71" fill="#1f1912" rx="7"/>
+  <line x1="1" y1="72" x2="1439" y2="72" stroke="#8f7536" stroke-width="1"/>
+  <circle cx="42" cy="36" r="22" fill="#2a2117" stroke="#c9a44c" stroke-width="2"/>
+  <path d="M7 4h11a2 2 0 0 1 0 4H9M7 4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8M9 12h6M9 16h4" fill="none" stroke="#e8c35a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" transform="translate(30 24) scale(1.000)"/>
+  <text x="76" y="31.8" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="21" fill="#e8c35a">Mik's Scrolling Battle Text</text>
+  <text x="76" y="52.4" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="13" fill="#a89b80">Options · 12.052</text>
+  <rect x="868" y="25" width="22" height="22" fill="#2a2112" rx="4" stroke="#e8c35a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#e8c35a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(871.96 28.96) scale(0.587)"/>
+  <text x="898" y="39.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">MSBT text</text>
+  <rect x="988" y="25" width="22" height="22" fill="#0e0b08" rx="4" stroke="#6e5a33" stroke-width="2"/>
+  <text x="1018" y="39.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Blizzard text</text>
+  <rect x="1136" y="18" width="228" height="36" fill="#120e0a" rx="6" stroke="#6e5a33" stroke-width="1"/>
+  <text x="1150" y="39.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" xml:space="preserve"><tspan fill="#e9e2d0">Profile: </tspan><tspan fill="#e8c35a">Default</tspan></text>
+  <path d="M6 9l6 6 6-6" fill="none" stroke="#e8c35a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(1340 30) scale(0.5)"/>
+  <rect x="1380" y="16" width="40" height="40" fill="#6e1a10" rx="6" stroke="#c9a44c" stroke-width="1"/>
+  <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="#f5e9c8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(1393 29) scale(0.58)"/>
+  <!-- sidebar: search and grouped pages -->
+  <rect x="1" y="73" width="255" height="766" fill="#13100c"/>
+  <line x1="256" y1="73" x2="256" y2="839" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="18" y="99.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">Search</text>
+  <rect x="14" y="106" width="228" height="36" fill="#0e0b08" rx="6" stroke="#5c4c2e" stroke-width="1"/>
+  <text x="26" y="128.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#8f8466">Search settings …</text>
+  <text x="18" y="167.6" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#8f8466" letter-spacing="1.5">DISPLAY</text>
+  <text x="26" y="200.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e9e2d0">General</text>
+  <rect x="14" y="220" width="228" height="36" fill="#e8c35a" fill-opacity="0.16" rx="6"/>
+  <text x="26" y="242.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e8c35a">Scroll Areas</text>
+  <text x="230" y="241.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80" text-anchor="end">4</text>
+  <text x="26" y="284.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e9e2d0">Fonts &amp; Colors</text>
+  <text x="18" y="323.6" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#8f8466" letter-spacing="1.5">EVENTS</text>
+  <text x="26" y="356.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e9e2d0">Incoming</text>
+  <text x="230" y="355.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80" text-anchor="end">33</text>
+  <text x="26" y="398.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e9e2d0">Outgoing</text>
+  <text x="230" y="397.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80" text-anchor="end">36</text>
+  <text x="26" y="440.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e9e2d0">Pet</text>
+  <text x="230" y="439.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80" text-anchor="end">29</text>
+  <text x="26" y="482.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e9e2d0">Notifications</text>
+  <text x="230" y="481.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80" text-anchor="end">28</text>
+  <text x="26" y="524.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e9e2d0">Loot &amp; Money</text>
+  <text x="230" y="523.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80" text-anchor="end">4</text>
+  <text x="18" y="563.6" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#8f8466" letter-spacing="1.5">MORE</text>
+  <text x="26" y="596.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e9e2d0">Sounds</text>
+  <text x="26" y="638.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e9e2d0">Profiles</text>
+  <!-- footer: reset link, cancel, apply -->
+  <rect x="1" y="840" width="1438" height="59" fill="#1f1912" rx="7"/>
+  <line x1="1" y1="840" x2="1439" y2="840" stroke="#8f7536" stroke-width="1"/>
+  <text x="20" y="873.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#c9a44c">Reset area</text>
+  <line x1="20" y1="878" x2="83.651" y2="878" stroke="#c9a44c" stroke-width="1"/>
+  <rect x="1180" y="850" width="110" height="40" fill="#241d14" rx="6" stroke="#6e5a33" stroke-width="1"/>
+  <text x="1235" y="874.5" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e9e2d0" text-anchor="middle">Cancel</text>
+  <rect x="1300" y="850" width="120" height="40" fill="#7d1d12" rx="6" stroke="#e8c35a" stroke-width="1"/>
+  <text x="1360" y="874.5" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#ffe39a" text-anchor="middle">Apply</text>
+  <!-- side panel -->
+  <rect x="1048" y="73" width="391" height="766" fill="#13100c"/>
+  <line x1="1048" y1="73" x2="1048" y2="839" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="280" y="114.4" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="28" fill="#e8c35a">Scroll Areas</text>
+  <text x="280" y="141.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#a89b80">Where the text appears and how it moves. Drag an area on the sketch to move it.</text>
+  <!-- area chips -->
+  <rect x="280" y="160" width="92" height="34" fill="#241d14" rx="17" stroke="#4a3d27" stroke-width="1"/>
+  <text x="326" y="180.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0" text-anchor="middle">Incoming</text>
+  <rect x="380" y="160" width="96" height="34" fill="#7d1d12" rx="17" stroke="#e8c35a" stroke-width="1"/>
+  <text x="428" y="180.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#ffe39a" text-anchor="middle">Outgoing</text>
+  <rect x="484" y="160" width="112" height="34" fill="#241d14" rx="17" stroke="#4a3d27" stroke-width="1"/>
+  <text x="540" y="180.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0" text-anchor="middle">Notification</text>
+  <rect x="604" y="160" width="70" height="34" fill="#241d14" rx="17" stroke="#4a3d27" stroke-width="1"/>
+  <text x="639" y="180.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0" text-anchor="middle">Static</text>
+  <rect x="682" y="160" width="110" height="34" fill="none" rx="17" stroke="#6e5a33" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="737" y="180.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#c9a44c" text-anchor="middle">+ New area</text>
+  <!-- screen sketch 744 x 419 (16:9), center (652, 419.5), 0.5456 px per UI unit -->
+  <rect x="280" y="210" width="744" height="419" fill="#222a33" rx="6" stroke="#3a2f1d" stroke-width="1"/>
+  <rect x="281" y="450" width="742" height="178" fill="#1b1f1a"/>
+  <line x1="281" y1="419.5" x2="1023" y2="419.5" stroke="#ffffff" stroke-width="1" opacity="0.07"/>
+  <line x1="652" y1="211" x2="652" y2="628" stroke="#ffffff" stroke-width="1" opacity="0.07"/>
+  <text x="658" y="432.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffffff" opacity="0.45">Center</text>
+  <rect x="575.6" y="364.9" width="21.8" height="141.9" fill="none" stroke="#e9e2d0" stroke-width="1" stroke-dasharray="4 3" opacity="0.35"/>
+  <rect x="556.5" y="244.9" width="191" height="109.1" fill="none" stroke="#e9e2d0" stroke-width="1" stroke-dasharray="4 3" opacity="0.35"/>
+  <rect x="641.1" y="515" width="21.8" height="68.2" fill="none" stroke="#e9e2d0" stroke-width="1" stroke-dasharray="4 3" opacity="0.35"/>
+  <rect x="706.6" y="364.9" width="21.8" height="141.9" fill="#e8c35a" fill-opacity="0.08" stroke="#e8c35a" stroke-width="2"/>
+  <rect x="701.6" y="359.9" width="10" height="10" fill="#e8c35a"/>
+  <rect x="723.4" y="359.9" width="10" height="10" fill="#e8c35a"/>
+  <rect x="701.6" y="501.8" width="10" height="10" fill="#e8c35a"/>
+  <rect x="723.4" y="501.8" width="10" height="10" fill="#e8c35a"/>
+  <path d="M597.4 364.9 Q560 435.9 597.4 506.8" fill="none" stroke="#ff5a5a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" opacity="0.6"/>
+  <path d="M706.6 364.9 Q744 435.9 706.6 506.8" fill="none" stroke="#e8c35a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M702 499 L706.6 506.8 L712 500" fill="none" stroke="#e8c35a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M652 354 L652 252" fill="none" stroke="#b2b200" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" opacity="0.6"/>
+  <path d="M647 260 L652 252 L657 260" fill="none" stroke="#b2b200" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <text x="552" y="439.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#e9e2d0" text-anchor="end" opacity="0.7">Incoming</text>
+  <text x="752" y="440.4" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="13" fill="#e8c35a">Outgoing · (100, −160)</text>
+  <text x="756" y="271.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#e9e2d0" opacity="0.7">Notification</text>
+  <text x="670" y="549.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#e9e2d0" opacity="0.7">Static</text>
+  <text x="531" y="398.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="14" xml:space="preserve"><tspan fill="#000000">-312</tspan></text>
+  <text x="530" y="397.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="14" xml:space="preserve"><tspan fill="#ff0000">-312</tspan></text>
+  <text x="735" y="406.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="14" xml:space="preserve"><tspan fill="#000000">236</tspan></text>
+  <text x="734" y="405.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="14" xml:space="preserve"><tspan fill="#ffffff">236</tspan></text>
+  <text x="581" y="308.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="14" xml:space="preserve"><tspan fill="#000000">[Buff]</tspan></text>
+  <text x="580" y="307.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="14" xml:space="preserve"><tspan fill="#b2b200">[Buff]</tspan></text>
+  <text x="601" y="601.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="13" xml:space="preserve"><tspan fill="#000000">+1 [Cloth]</tspan></text>
+  <text x="600" y="600.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="13" xml:space="preserve"><tspan fill="#ffff00">+1 [Cloth]</tspan></text>
+  <!-- below the sketch -->
+  <rect x="280" y="645" width="160" height="38" fill="#241d14" rx="6" stroke="#6e5a33" stroke-width="1"/>
+  <path d="M7 4l13 8-13 8z" fill="#e8c35a" stroke="#e8c35a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" transform="translate(294 657) scale(0.58)"/>
+  <text x="314" y="667.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Show in game</text>
+  <rect x="456" y="653" width="20" height="20" fill="#2a2112" rx="4" stroke="#e8c35a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#e8c35a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(459.6 656.6) scale(0.533)"/>
+  <text x="484" y="666.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Show grid</text>
+  <text x="570" y="666.4" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="13" fill="#8f8466">Positions in UI units from the screen center</text>
+  <!-- settings of the selected area -->
+  <text x="1070" y="103.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#8f8466" letter-spacing="1">AREA</text>
+  <text x="1070" y="129.6" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="22" fill="#e8c35a">Outgoing</text>
+  <text x="1070" y="161.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#8f8466" letter-spacing="1">MOTION</text>
+  <text x="1248" y="161.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#8f8466" letter-spacing="1">DIRECTION</text>
+  <rect x="1070" y="170" width="170" height="36" fill="#0e0b08" rx="6" stroke="#5c4c2e" stroke-width="1"/>
+  <text x="1082" y="192.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Parabola</text>
+  <path d="M6 9l6 6 6-6" fill="none" stroke="#e8c35a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(1218 182) scale(0.5)"/>
+  <rect x="1248" y="170" width="170" height="36" fill="#0e0b08" rx="6" stroke="#5c4c2e" stroke-width="1"/>
+  <text x="1260" y="192.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Down</text>
+  <path d="M6 9l6 6 6-6" fill="none" stroke="#e8c35a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(1396 182) scale(0.5)"/>
+  <text x="1070" y="231.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#8f8466" letter-spacing="1">CURVE</text>
+  <rect x="1070" y="240" width="348" height="38" fill="#0e0b08" rx="8" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="1157.5" y="262.9" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="13" fill="#d6c9a8" text-anchor="middle">Left</text>
+  <rect x="1246" y="243" width="169" height="32" fill="#7d1d12" rx="6"/>
+  <text x="1330.5" y="262.9" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="13" fill="#ffe39a" text-anchor="middle">Right</text>
+  <text x="1070" y="301.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#8f8466" letter-spacing="1">TEXT</text>
+  <text x="1248" y="301.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#8f8466" letter-spacing="1">ICON</text>
+  <rect x="1070" y="310" width="170" height="36" fill="#0e0b08" rx="8" stroke="#3a2f1d" stroke-width="1"/>
+  <rect x="1073" y="313" width="52" height="30" fill="#7d1d12" rx="6"/>
+  <text x="1099" y="331.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#ffe39a" text-anchor="middle">Left</text>
+  <text x="1155" y="331.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#d6c9a8" text-anchor="middle">Center</text>
+  <text x="1211" y="331.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#d6c9a8" text-anchor="middle">Right</text>
+  <rect x="1248" y="310" width="170" height="36" fill="#0e0b08" rx="8" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="1277" y="331.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#d6c9a8" text-anchor="middle">Left</text>
+  <rect x="1307" y="313" width="52" height="30" fill="#7d1d12" rx="6"/>
+  <text x="1333" y="331.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#ffe39a" text-anchor="middle">Right</text>
+  <text x="1389" y="331.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#d6c9a8" text-anchor="middle">Off</text>
+  <text x="1070" y="373.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#8f8466">X</text>
+  <rect x="1070" y="382" width="84" height="34" fill="#0e0b08" rx="6" stroke="#5c4c2e" stroke-width="1"/>
+  <text x="1082" y="403.5" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="15" fill="#e9e2d0">100</text>
+  <text x="1158" y="373.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#8f8466">Y</text>
+  <rect x="1158" y="382" width="84" height="34" fill="#0e0b08" rx="6" stroke="#5c4c2e" stroke-width="1"/>
+  <text x="1170" y="403.5" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="15" fill="#e9e2d0">-160</text>
+  <text x="1246" y="373.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#8f8466">Width</text>
+  <rect x="1246" y="382" width="84" height="34" fill="#0e0b08" rx="6" stroke="#5c4c2e" stroke-width="1"/>
+  <text x="1258" y="403.5" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="15" fill="#e9e2d0">40</text>
+  <text x="1334" y="373.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#8f8466">Height</text>
+  <rect x="1334" y="382" width="84" height="34" fill="#0e0b08" rx="6" stroke="#5c4c2e" stroke-width="1"/>
+  <text x="1346" y="403.5" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="15" fill="#e9e2d0">260</text>
+  <text x="1070" y="443.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#8f8466" letter-spacing="1">SPEED</text>
+  <text x="1418" y="444.4" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="13" fill="#e9e2d0" text-anchor="end">100 %</text>
+  <rect x="1070" y="456" width="348" height="8" fill="#0e0b08" rx="4" stroke="#5c4c2e" stroke-width="1"/>
+  <rect x="1070" y="456" width="122" height="8" fill="#8f7536" rx="4"/>
+  <circle cx="1192" cy="460" r="9" fill="#e8c35a" stroke="#17130e" stroke-width="2"/>
+  <rect x="1070" y="478" width="20" height="20" fill="#2a2112" rx="4" stroke="#e8c35a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#e8c35a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(1073.6 481.6) scale(0.533)"/>
+  <text x="1098" y="491.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Use global speed</text>
+  <text x="1070" y="529.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#8f8466" letter-spacing="1">CRITS</text>
+  <rect x="1070" y="538" width="220" height="36" fill="#0e0b08" rx="6" stroke="#5c4c2e" stroke-width="1"/>
+  <text x="1082" y="560.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Pop</text>
+  <path d="M6 9l6 6 6-6" fill="none" stroke="#e8c35a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(1268 550) scale(0.5)"/>
+  <rect x="1306" y="545" width="20" height="20" fill="#2a2112" rx="4" stroke="#e8c35a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#e8c35a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(1309.6 548.6) scale(0.533)"/>
+  <text x="1334" y="558.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Jiggle</text>
+  <text x="1070" y="609.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#d6c9a8">Font: MSBT Porky · 18 / crit 26</text>
+  <rect x="1336" y="590" width="82" height="34" fill="#241d14" rx="6" stroke="#6e5a33" stroke-width="1"/>
+  <text x="1377" y="611.2" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="14" fill="#e9e2d0" text-anchor="middle">Font …</text>
+  <text x="1070" y="652.4" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="13" fill="#8f8466">Built-in area: cannot be deleted.</text>
+</svg>

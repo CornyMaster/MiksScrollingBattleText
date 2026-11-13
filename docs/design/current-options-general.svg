@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="988" height="613" viewBox="0 0 988 613" style="max-width: 100%; height: auto" role="img" aria-labelledby="current-options-general-title current-options-general-desc">
+  <title id="current-options-general-title">MSBT options, General tab (current, redrawn at 1.25x)</title>
+  <desc id="current-options-general-desc">Two columns of master switches, master settings buttons and display toggles.</desc>
+  <!-- window frame (character frame look, drawn without game art) -->
+  <rect x="0" y="0" width="988" height="613" fill="#17120c" rx="6"/>
+  <rect x="1" y="1" width="986" height="611" fill="none" rx="6" stroke="#2a2216" stroke-width="2"/>
+  <rect x="3" y="3" width="982" height="607" fill="none" rx="5" stroke="#8b7444" stroke-width="2"/>
+  <rect x="5" y="5" width="978" height="603" fill="none" rx="4" stroke="#3a2f1d" stroke-width="2"/>
+  <rect x="6" y="6" width="976" height="84" fill="#100c08"/>
+  <line x1="6" y1="90" x2="982" y2="90" stroke="#4a3d27" stroke-width="1"/>
+  <circle cx="50" cy="44" r="41" fill="#120e09"/>
+  <circle cx="50" cy="44" r="38" fill="#2a2117" stroke="#8b7444" stroke-width="3"/>
+  <path d="M7 4h11a2 2 0 0 1 0 4H9M7 4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8M9 12h6M9 16h4" fill="none" stroke="#e8c35a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" transform="translate(30 24) scale(1.667)"/>
+  <text x="494" y="34.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#ffd100" text-anchor="middle">Mik's Scrolling Battle Text 12.052</text>
+  <rect x="949" y="15" width="30" height="30" fill="#7a1209" rx="6" stroke="#c9a24a" stroke-width="2"/>
+  <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="#f5e9c8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(957 23) scale(0.58)"/>
+  <!-- tab list -->
+  <rect x="37" y="98" width="244" height="25" fill="#ffc840" fill-opacity="0.18"/>
+  <text x="43" y="114.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffffff">General</text>
+  <text x="43" y="139.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Scroll Areas</text>
+  <text x="43" y="164.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Events</text>
+  <text x="43" y="189.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Sounds</text>
+  <text x="43" y="214.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Loot Alerts</text>
+  <text x="43" y="239.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Profile</text>
+  <text x="43" y="488.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Reset Blizzard SCT</text>
+  <text x="43" y="583.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Language</text>
+  <rect x="281" y="90" width="8" height="230" fill="#241c12"/>
+  <line x1="281.5" y1="90" x2="281.5" y2="320" stroke="#6b5a3a" stroke-width="1"/>
+  <line x1="288.5" y1="90" x2="288.5" y2="320" stroke="#0b0805" stroke-width="1"/>
+  <rect x="281" y="320" width="8" height="280" fill="#241c12"/>
+  <line x1="281.5" y1="320" x2="281.5" y2="600" stroke="#6b5a3a" stroke-width="1"/>
+  <line x1="288.5" y1="320" x2="288.5" y2="600" stroke="#0b0805" stroke-width="1"/>
+  <rect x="300" y="104" width="32" height="32" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(303.84 107.84) scale(1.013)"/>
+  <text x="336" y="123.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Enable Mik's Scrolling Battle Text</text>
+  <rect x="319" y="142" width="26" height="26" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="349" y="158.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Disable outgoing</text>
+  <rect x="319" y="172" width="26" height="26" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="349" y="188.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Disable notifications</text>
+  <rect x="319" y="202" width="26" height="26" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="349" y="218.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Disable incoming</text>
+  <rect x="644" y="104" width="32" height="32" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(647.84 107.84) scale(1.013)"/>
+  <text x="680" y="123.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Enable Blizzard Text</text>
+  <rect x="663" y="142" width="26" height="26" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="693" y="158.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Disable outgoing</text>
+  <rect x="663" y="172" width="26" height="26" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="693" y="188.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Disable notifications</text>
+  <rect x="663" y="202" width="26" height="26" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="693" y="218.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Disable incoming</text>
+  <line x1="624" y1="104" x2="624" y2="239" stroke="#999999" stroke-width="1" opacity="0.8"/>
+  <rect x="300" y="442" width="170" height="25" fill="#7a1209" rx="4" stroke="#c9a24a" stroke-width="1"/>
+  <text x="385" y="458.1" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#ffd100" text-anchor="middle">Master Fonts</text>
+  <rect x="300" y="479" width="170" height="25" fill="#7a1209" rx="4" stroke="#c9a24a" stroke-width="1"/>
+  <text x="385" y="495.1" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#ffd100" text-anchor="middle">Partial Effects</text>
+  <rect x="300" y="516" width="170" height="25" fill="#7a1209" rx="4" stroke="#c9a24a" stroke-width="1"/>
+  <text x="385" y="532.1" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#ffd100" text-anchor="middle">Damage Colors</text>
+  <rect x="300" y="553" width="170" height="25" fill="#7a1209" rx="4" stroke="#c9a24a" stroke-width="1"/>
+  <text x="385" y="569.1" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#ffd100" text-anchor="middle">Class Colors</text>
+  <text x="813.5" y="363.6" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#ffd100" text-anchor="middle">Animation Speed: 100</text>
+  <rect x="701" y="374" width="225" height="14" fill="#0b0906" rx="7" stroke="#6f6f6f" stroke-width="1"/>
+  <path d="M780 372 L789 381 L780 390 L771 381 Z" fill="#cfcfcf" stroke="#3a3a3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="926" y="421.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100" text-anchor="end">Enable Skill Names</text>
+  <rect x="783.425" y="402" width="32" height="32" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="926" y="456.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100" text-anchor="end">Enable Skill Icons</text>
+  <rect x="785" y="437" width="32" height="32" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(788.84 440.84) scale(1.013)"/>
+  <text x="926" y="491.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100" text-anchor="end">Sticky Crits</text>
+  <rect x="818.075" y="472" width="32" height="32" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(821.915 475.84) scale(1.013)"/>
+  <text x="926" y="526.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100" text-anchor="end">Stack Similar Hits</text>
+  <rect x="785.263" y="507" width="32" height="32" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="926" y="561.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100" text-anchor="end">Shorten Numbers</text>
+  <rect x="791.694" y="542" width="32" height="32" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+</svg>

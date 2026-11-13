@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810" style="max-width: 100%; height: auto" role="img" aria-labelledby="current-in-game-title current-in-game-desc">
+  <title id="current-in-game-title">MSBT in game, current defaults redrawn from code</title>
+  <desc id="current-in-game-desc">Four scroll areas around the screen center with sample lines. Generic names, placeholder icons.</desc>
+  <rect x="0" y="0" width="1440" height="810" fill="#222a33"/>
+  <rect x="0" y="470" width="1440" height="340" fill="#1b1f1a"/>
+  <text x="440" y="487.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#ffffff" opacity="0.32">[game scene placeholder]</text>
+  <!-- game UI outlines for scale -->
+  <rect x="20" y="20" width="232" height="74" fill="none" rx="6" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <text x="28" y="34.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffffff" opacity="0.4">Player</text>
+  <rect x="270" y="20" width="232" height="74" fill="none" rx="6" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <text x="278" y="34.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffffff" opacity="0.4">Target</text>
+  <rect x="20" y="566" width="400" height="190" fill="none" rx="6" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <text x="28" y="580.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffffff" opacity="0.4">Chat</text>
+  <circle cx="1357" cy="83" r="67" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <text x="1357" y="85.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle" opacity="0.4">Minimap</text>
+  <rect x="420" y="742" width="46.3" height="48" fill="none" rx="3" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <rect x="470.3" y="742" width="46.3" height="48" fill="none" rx="3" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <rect x="520.6" y="742" width="46.3" height="48" fill="none" rx="3" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <rect x="570.9" y="742" width="46.3" height="48" fill="none" rx="3" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <rect x="621.2" y="742" width="46.3" height="48" fill="none" rx="3" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <rect x="671.5" y="742" width="46.3" height="48" fill="none" rx="3" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <rect x="721.8" y="742" width="46.3" height="48" fill="none" rx="3" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <rect x="772.1" y="742" width="46.3" height="48" fill="none" rx="3" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <rect x="822.4" y="742" width="46.3" height="48" fill="none" rx="3" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <rect x="872.7" y="742" width="46.3" height="48" fill="none" rx="3" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <rect x="923" y="742" width="46.3" height="48" fill="none" rx="3" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <rect x="973.3" y="742" width="46.3" height="48" fill="none" rx="3" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  <text x="1024" y="764.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffffff" opacity="0.4">Action bar</text>
+  <line x1="713" y1="405" x2="728" y2="405" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+  <line x1="720" y1="398" x2="720" y2="413" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+  <text x="726" y="417.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffffff" opacity="0.5">Screen center</text>
+  <!-- scroll areas (positions from MSBTProfiles.lua, 768 UI units = 810 px) -->
+  <rect x="572" y="300" width="42" height="274" fill="none" stroke="#ffd100" stroke-width="1" stroke-dasharray="4 3" opacity="0.45"/>
+  <text x="614" y="588.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffd100" text-anchor="end" opacity="0.85">Incoming · parabola down, curved left</text>
+  <text x="614" y="602.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffd100" text-anchor="end" opacity="0.85">offset (−140, −160) · 40 × 260</text>
+  <rect x="826" y="300" width="42" height="274" fill="none" stroke="#ffd100" stroke-width="1" stroke-dasharray="4 3" opacity="0.45"/>
+  <text x="826" y="588.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffd100" opacity="0.85">Outgoing · parabola down, curved right</text>
+  <text x="826" y="602.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffd100" opacity="0.85">offset (+100, −160) · icon right</text>
+  <rect x="535" y="68" width="369" height="211" fill="none" stroke="#ffd100" stroke-width="1" stroke-dasharray="4 3" opacity="0.45"/>
+  <text x="912" y="78.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffd100" opacity="0.85">Notification · rises</text>
+  <text x="912" y="92.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffd100" opacity="0.85">offset (−175, +120) · 350 × 200</text>
+  <rect x="699" y="590" width="42" height="132" fill="none" stroke="#ffd100" stroke-width="1" stroke-dasharray="4 3" opacity="0.45"/>
+  <text x="750" y="734.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffd100" opacity="0.85">Static · lines stay 3 s</text>
+  <text x="750" y="748.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="11" fill="#ffd100" opacity="0.85">offset (−20, −300) · height 125</text>
+  <!-- incoming: right aligned, icon left of the text -->
+  <text x="609" y="307.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="end" xml:space="preserve"><tspan fill="#000000">-312</tspan></text>
+  <text x="608" y="306.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="end" xml:space="preserve"><tspan fill="#ff0000">-312</tspan></text>
+  <rect x="540.54" y="291" width="19" height="19" fill="#5b4a3a" stroke="#000000" stroke-width="1"/>
+  <path d="M20 4l-9 9M20 4h-5M20 4v5M8 13l3 3M6 18l2-2M4 20l2-2" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(542.63 293.09) scale(0.618)"/>
+  <text x="586" y="360.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="end" xml:space="preserve"><tspan fill="#000000">Miss!</tspan></text>
+  <text x="585" y="359.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="end" xml:space="preserve"><tspan fill="#0000ff">Miss!</tspan></text>
+  <text x="577" y="476.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="end" xml:space="preserve"><tspan fill="#000000">(Ally) +512</tspan></text>
+  <text x="576" y="475.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="end" xml:space="preserve"><tspan fill="#00ff00">(Ally) +512</tspan></text>
+  <rect x="445.46" y="460" width="19" height="19" fill="#2c5a3c" stroke="#000000" stroke-width="1"/>
+  <path d="M12 3c4 5 6 8 6 11a6 6 0 0 1-12 0c0-3 2-6 6-11z" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(447.55 462.09) scale(0.618)"/>
+  <text x="594" y="529.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="end" opacity="0.7" xml:space="preserve"><tspan fill="#000000">-87</tspan></text>
+  <text x="593" y="528.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="end" opacity="0.7" xml:space="preserve"><tspan fill="#ff0000">-87</tspan></text>
+  <rect x="538.08" y="513" width="19" height="19" fill="#6b2a1a" stroke="#000000" stroke-width="1" opacity="0.7"/>
+  <path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-3 2-4 2-7c1 1 2 2 3 4c0-3 0-5 0-7z" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.7" transform="translate(540.17 515.09) scale(0.618)"/>
+  <text x="615" y="432.6" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="27" text-anchor="end" xml:space="preserve"><tspan fill="#000000">-1,204</tspan></text>
+  <text x="614" y="431.6" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="27" text-anchor="end" xml:space="preserve"><tspan fill="#ff0000">-1,204</tspan></text>
+  <rect x="493.9" y="410" width="27" height="27" fill="#5b4a3a" stroke="#000000" stroke-width="1"/>
+  <path d="M20 4l-9 9M20 4h-5M20 4v5M8 13l3 3M6 18l2-2M4 20l2-2" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(496.87 412.97) scale(0.878)"/>
+  <!-- outgoing: left aligned, icon right of the text, numbers in school color -->
+  <text x="833" y="307.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" xml:space="preserve"><tspan fill="#000000">412</tspan></text>
+  <text x="832" y="306.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" xml:space="preserve"><tspan fill="#ffff00">412</tspan></text>
+  <rect x="873.62" y="291" width="19" height="19" fill="#6b3b2b" stroke="#000000" stroke-width="1"/>
+  <path d="M6 4c2 4 2 10 0 16M12 4c2 4 2 10 0 16M18 4c2 4 2 10 0 16" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(875.71 293.09) scale(0.618)"/>
+  <text x="856" y="360.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" xml:space="preserve"><tspan fill="#000000">236</tspan></text>
+  <text x="855" y="359.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" xml:space="preserve"><tspan fill="#ffffff">236</tspan></text>
+  <rect x="896.62" y="344" width="19" height="19" fill="#5b4a3a" stroke="#000000" stroke-width="1"/>
+  <path d="M20 4l-9 9M20 4h-5M20 4v5M8 13l3 3M6 18l2-2M4 20l2-2" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(898.71 346.09) scale(0.618)"/>
+  <text x="865" y="476.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" xml:space="preserve"><tspan fill="#000000">&lt;Bleed&gt;</tspan></text>
+  <text x="864" y="475.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" xml:space="preserve"><tspan fill="#8080ff">&lt;Bleed&gt;</tspan></text>
+  <rect x="949.51" y="460" width="19" height="19" fill="#6b3b2b" stroke="#000000" stroke-width="1"/>
+  <path d="M6 4c2 4 2 10 0 16M12 4c2 4 2 10 0 16M18 4c2 4 2 10 0 16" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(951.6 462.09) scale(0.618)"/>
+  <text x="848" y="529.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" opacity="0.7" xml:space="preserve"><tspan fill="#000000">3</tspan></text>
+  <text x="847" y="528.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" opacity="0.7" xml:space="preserve"><tspan fill="#a1db65">3</tspan></text>
+  <rect x="863.54" y="513" width="19" height="19" fill="#2f5a2a" stroke="#000000" stroke-width="1" opacity="0.7"/>
+  <path d="M4 20C10 14 14 10 20 4M9 15l-3-1M12 12l1-3M15 9l3 1M7 17l1 3" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.7" transform="translate(865.63 515.09) scale(0.618)"/>
+  <text x="827" y="432.6" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="27" xml:space="preserve"><tspan fill="#000000">472</tspan></text>
+  <text x="826" y="431.6" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="27" xml:space="preserve"><tspan fill="#ffffff">472</tspan></text>
+  <rect x="883.46" y="410" width="27" height="27" fill="#5b4a3a" stroke="#000000" stroke-width="1"/>
+  <path d="M20 4l-9 9M20 4h-5M20 4v5M8 13l3 3M6 18l2-2M4 20l2-2" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(886.43 412.97) scale(0.878)"/>
+  <!-- notification: centered, rising; Finish Him! is the sticky maximum alert -->
+  <text x="721" y="67.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="middle" opacity="0.45" xml:space="preserve"><tspan fill="#000000">+Combat</tspan></text>
+  <text x="720" y="66.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="middle" opacity="0.45" xml:space="preserve"><tspan fill="#ffffff">+Combat</tspan></text>
+  <rect x="631.36" y="101" width="19" height="19" fill="#3c4f7a" stroke="#000000" stroke-width="1"/>
+  <path d="M12 3l2.5 6 6 .5-4.6 4 1.4 6.3L12 16.5 6.7 19.8 8.1 13.5 3.5 9.5l6-.5z" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(633.45 103.09) scale(0.618)"/>
+  <text x="655.36" y="117.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" xml:space="preserve"><tspan fill="#000000">[Strength Buff]</tspan></text>
+  <text x="654.36" y="116.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" xml:space="preserve"><tspan fill="#b2b200">[Strength Buff]</tspan></text>
+  <text x="721" y="166.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="38" text-anchor="middle" xml:space="preserve"><tspan fill="#000000">Finish Him!</tspan></text>
+  <text x="720" y="165.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="38" text-anchor="middle" xml:space="preserve"><tspan fill="#ff0000">Finish Him!</tspan></text>
+  <text x="721" y="228.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="middle" xml:space="preserve"><tspan fill="#000000">4 Combo Points</tspan></text>
+  <text x="720" y="227.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="middle" xml:space="preserve"><tspan fill="#8080ff">4 Combo Points</tspan></text>
+  <rect x="632.88" y="252" width="19" height="19" fill="#2f5f3a" stroke="#000000" stroke-width="1"/>
+  <path d="M12 21V10M12 10c-4 0-6-3-6-6 4 0 6 3 6 6zM12 13c4 0 6-3 6-6-4 0-6 3-6 6z" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(634.97 254.09) scale(0.618)"/>
+  <text x="656.88" y="268.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" xml:space="preserve"><tspan fill="#000000">Gathering: 301</tspan></text>
+  <text x="655.88" y="267.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" xml:space="preserve"><tspan fill="#5555ff">Gathering: 301</tspan></text>
+  <!-- static: loot, money, item ready -->
+  <rect x="637.44" y="571" width="19" height="19" fill="#5a4630" stroke="#000000" stroke-width="1"/>
+  <path d="M6 8h12l-1 12H7zM9 8V6a3 3 0 0 1 6 0v2" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(639.53 573.09) scale(0.618)"/>
+  <text x="661.44" y="587.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" xml:space="preserve"><tspan fill="#000000">+1 </tspan><tspan fill="#000000">[Cloth]</tspan><tspan fill="#000000"> (12)</tspan></text>
+  <text x="660.44" y="586.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" xml:space="preserve"><tspan fill="#ffff00">+1 </tspan><tspan fill="#ffffff">[Cloth]</tspan><tspan fill="#ffff00"> (12)</tspan></text>
+  <text x="721" y="614.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="middle" xml:space="preserve"><tspan fill="#000000">+</tspan><tspan fill="#000000">1 Gold</tspan><tspan fill="#000000"> 23 Silver</tspan></text>
+  <text x="720" y="613.2" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="19" text-anchor="middle" xml:space="preserve"><tspan fill="#ffffff">+</tspan><tspan fill="#ffd700">1 Gold</tspan><tspan fill="#808080"> 23 Silver</tspan></text>
+  <rect x="596.215" y="621" width="23" height="23" fill="#6b2236" stroke="#000000" stroke-width="1"/>
+  <path d="M10 3h4M10 3v5L6 15a4 4 0 0 0 4 6h4a4 4 0 0 0 4-6l-4-7V3" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(598.745 623.53) scale(0.748)"/>
+  <text x="624.215" y="640.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="23" xml:space="preserve"><tspan fill="#000000">Potion</tspan><tspan fill="#000000"> Ready Now!</tspan></text>
+  <text x="623.215" y="639.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="23" xml:space="preserve"><tspan fill="#ff9696">Potion</tspan><tspan fill="#c8c800"> Ready Now!</tspan></text>
+  <!-- legend -->
+  <rect x="1060" y="610" width="360" height="112" fill="#000000" fill-opacity="0.5" rx="4" stroke="#ffffff" stroke-width="1"/>
+  <text x="1074" y="633.2" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="14" fill="#e8c35a">Redrawn from code</text>
+  <text x="1074" y="655.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#ffffff" opacity="0.8">• Positions, colors, formats: MSBTProfiles.lua</text>
+  <text x="1074" y="672.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#ffffff" opacity="0.8">  (Classic profile, used on Forever)</text>
+  <text x="1074" y="689.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#ffffff" opacity="0.8">• Outgoing numbers in school color; crits pop</text>
+  <text x="1074" y="706.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#ffffff" opacity="0.8">• Stand-in font; icons are placeholders</text>
+</svg>

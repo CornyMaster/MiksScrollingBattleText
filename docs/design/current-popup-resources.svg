@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="913" height="538" viewBox="0 0 913 538" style="max-width: 100%; height: auto" role="img" aria-labelledby="current-popup-resources-title current-popup-resources-desc">
+  <title id="current-popup-resources-title">MSBT event popup for Resource Gains (current, redrawn at 1.25x)</title>
+  <desc id="current-popup-resources-desc">Event settings on the left, a scrolling list of 30 resource checkboxes on the right.</desc>
+  <!-- window frame (character frame look, drawn without game art) -->
+  <rect x="0" y="0" width="913" height="538" fill="#17120c" rx="6"/>
+  <rect x="1" y="1" width="911" height="536" fill="none" rx="6" stroke="#2a2216" stroke-width="2"/>
+  <rect x="3" y="3" width="907" height="532" fill="none" rx="5" stroke="#8b7444" stroke-width="2"/>
+  <rect x="5" y="5" width="903" height="528" fill="none" rx="4" stroke="#3a2f1d" stroke-width="2"/>
+  <rect x="6" y="6" width="901" height="70" fill="#100c08"/>
+  <line x1="6" y1="76" x2="907" y2="76" stroke="#4a3d27" stroke-width="1"/>
+  <circle cx="50" cy="44" r="41" fill="#120e09"/>
+  <circle cx="50" cy="44" r="38" fill="#2a2117" stroke="#8b7444" stroke-width="3"/>
+  <path d="M7 4h11a2 2 0 0 1 0 4H9M7 4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8M9 12h6M9 16h4" fill="none" stroke="#e8c35a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" transform="translate(30 24) scale(1.667)"/>
+  <text x="456.5" y="34.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#ffd100" text-anchor="middle">Notification - Resource Gains</text>
+  <rect x="874" y="15" width="30" height="30" fill="#7a1209" rx="6" stroke="#c9a24a" stroke-width="2"/>
+  <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="#f5e9c8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(882 23) scale(0.58)"/>
+  <rect x="37" y="85" width="839" height="381" fill="#050505" fill-opacity="0.9" rx="4" stroke="#99804d" stroke-width="2"/>
+  <text x="59" y="115.6" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#ffd100">Output Scroll Area:</text>
+  <rect x="55" y="125" width="187" height="31" fill="#0a0806" rx="3" stroke="#6b5530" stroke-width="1"/>
+  <text x="204" y="143.6" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#ffffff" text-anchor="end">Notification</text>
+  <circle cx="227" cy="140.5" r="12" fill="#3a2b10" stroke="#c9a24a" stroke-width="1"/>
+  <path d="M6 9l6 6 6-6" fill="none" stroke="#ffd100" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(221 134.5) scale(0.5)"/>
+  <text x="59" y="189.6" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#ffd100">Output message:</text>
+  <rect x="55" y="199" width="312" height="25" fill="#000000" fill-opacity="0.7" rx="3" stroke="#5d5d5d" stroke-width="1"/>
+  <text x="63" y="215.4" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="13" fill="#ffffff">%a %p</text>
+  <text x="59" y="257.6" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#ffd100">Sound:</text>
+  <rect x="55" y="267" width="187" height="31" fill="#0a0806" rx="3" stroke="#6b5530" stroke-width="1"/>
+  <text x="204" y="285.6" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#ffffff" text-anchor="end">None</text>
+  <circle cx="227" cy="282.5" r="12" fill="#3a2b10" stroke="#c9a24a" stroke-width="1"/>
+  <path d="M6 9l6 6 6-6" fill="none" stroke="#ffd100" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(221 276.5) scale(0.5)"/>
+  <rect x="252" y="268.5" width="28" height="28" fill="#2b2216" rx="4" stroke="#7a6438" stroke-width="1"/>
+  <path d="M12 8.8a3.2 3.2 0 1 0 0 6.4a3.2 3.2 0 1 0 0-6.4M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1" fill="none" stroke="#e8c35a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(258 274.5) scale(0.667)"/>
+  <rect x="290" y="270" width="90" height="25" fill="#7a1209" rx="4" stroke="#c9a24a" stroke-width="1"/>
+  <text x="335" y="286.1" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12" fill="#ffd100" text-anchor="middle">Play</text>
+  <rect x="55" y="322" width="32" height="32" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="91" y="341.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Always Sticky</text>
+  <text x="475" y="108.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#ffd100">Resources</text>
+  <rect x="475" y="125.5" width="28" height="28" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(478.36 128.86) scale(0.887)"/>
+  <text x="507" y="143.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Mana</text>
+  <rect x="475" y="156.5" width="28" height="28" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(478.36 159.86) scale(0.887)"/>
+  <text x="507" y="174.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Rage</text>
+  <rect x="475" y="187.5" width="28" height="28" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(478.36 190.86) scale(0.887)"/>
+  <text x="507" y="205.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Focus</text>
+  <rect x="475" y="218.5" width="28" height="28" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(478.36 221.86) scale(0.887)"/>
+  <text x="507" y="236.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Energy</text>
+  <rect x="475" y="249.5" width="28" height="28" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(478.36 252.86) scale(0.887)"/>
+  <text x="507" y="267.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Combo Point</text>
+  <rect x="475" y="280.5" width="28" height="28" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(478.36 283.86) scale(0.887)"/>
+  <text x="507" y="298.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Runes</text>
+  <rect x="475" y="311.5" width="28" height="28" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(478.36 314.86) scale(0.887)"/>
+  <text x="507" y="329.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Runic Power</text>
+  <rect x="475" y="342.5" width="28" height="28" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(478.36 345.86) scale(0.887)"/>
+  <text x="507" y="360.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Soul Shards</text>
+  <rect x="475" y="373.5" width="28" height="28" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(478.36 376.86) scale(0.887)"/>
+  <text x="507" y="391.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Lunar Power</text>
+  <rect x="475" y="404.5" width="28" height="28" fill="#1c1c1c" rx="3" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#ffd100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(478.36 407.86) scale(0.887)"/>
+  <text x="507" y="422.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100">Holy Power</text>
+  <circle cx="848" cy="134" r="10" fill="#3a2b10" stroke="#c9a24a" stroke-width="1"/>
+  <rect x="838" y="146" width="20" height="278" fill="#0b0906" rx="2" stroke="#3a2f1d" stroke-width="1"/>
+  <rect x="840" y="150" width="16" height="90" fill="#8b7444" rx="3"/>
+  <circle cx="848" cy="434" r="10" fill="#3a2b10" stroke="#c9a24a" stroke-width="1"/>
+  <text x="475" y="446.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#9a9a9a">Resource sounds are muted when a hidden</text>
+  <text x="475" y="459.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#9a9a9a">resource type needs filtering.</text>
+  <rect x="314" y="482" width="130" height="30" fill="#7a1209" rx="4" stroke="#c9a24a" stroke-width="1"/>
+  <text x="379" y="500.8" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100" text-anchor="middle">Save</text>
+  <rect x="469" y="482" width="130" height="30" fill="#7a1209" rx="4" stroke="#c9a24a" stroke-width="1"/>
+  <text x="534" y="500.8" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="12.5" fill="#ffd100" text-anchor="middle">Cancel</text>
+</svg>

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="900" viewBox="0 0 1100 900" style="max-width: 100%; height: auto" role="img" aria-labelledby="proposal-style-title proposal-style-desc">
+  <title id="proposal-style-title">Proposal: style tokens and components</title>
+  <desc id="proposal-style-desc">Colors, type roles, control states and sizes for the reworked options window.</desc>
+  <rect x="0.5" y="0.5" width="1099" height="899" fill="#17130e" rx="8" stroke="#6e5a33" stroke-width="1"/>
+  <text x="40" y="60.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="30" fill="#e8c35a">Style</text>
+  <text x="40" y="90.0" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="15" fill="#a89b80">Dark stone, gold for titles and selection, red only for the main button.</text>
+  <text x="40" y="126.4" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="13" fill="#8f8466" letter-spacing="1.5">COLORS</text>
+  <rect x="40" y="136" width="104" height="58" fill="#17130E" rx="6" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="40" y="215.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Window</text>
+  <text x="40" y="233.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">#17130E</text>
+  <text x="40" y="249.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">ground</text>
+  <rect x="154" y="136" width="104" height="58" fill="#13100C" rx="6" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="154" y="215.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Panel</text>
+  <text x="154" y="233.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">#13100C</text>
+  <text x="154" y="249.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">sidebar, cards</text>
+  <rect x="268" y="136" width="104" height="58" fill="#0E0B08" rx="6" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="268" y="215.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Field</text>
+  <text x="268" y="233.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">#0E0B08</text>
+  <text x="268" y="249.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">inputs</text>
+  <rect x="382" y="136" width="104" height="58" fill="#3A2F1D" rx="6" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="382" y="215.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Line</text>
+  <text x="382" y="233.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">#3A2F1D</text>
+  <text x="382" y="249.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">dividers</text>
+  <rect x="496" y="136" width="104" height="58" fill="#6E5A33" rx="6" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="496" y="215.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Border</text>
+  <text x="496" y="233.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">#6E5A33</text>
+  <text x="496" y="249.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">fields, buttons</text>
+  <rect x="610" y="136" width="104" height="58" fill="#E8C35A" rx="6" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="610" y="215.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Gold</text>
+  <text x="610" y="233.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">#E8C35A</text>
+  <text x="610" y="249.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">titles, selection</text>
+  <rect x="724" y="136" width="104" height="58" fill="#E9E2D0" rx="6" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="724" y="215.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Text</text>
+  <text x="724" y="233.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">#E9E2D0</text>
+  <text x="724" y="249.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">content</text>
+  <rect x="838" y="136" width="104" height="58" fill="#A89B80" rx="6" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="838" y="215.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Hint</text>
+  <text x="838" y="233.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">#A89B80</text>
+  <text x="838" y="249.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">help text</text>
+  <rect x="952" y="136" width="104" height="58" fill="#7D1D12" rx="6" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="952" y="215.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Red</text>
+  <text x="952" y="233.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">#7D1D12</text>
+  <text x="952" y="249.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">main button</text>
+  <!-- type roles -->
+  <rect x="40" y="280" width="322" height="150" fill="#13100c" rx="8" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="56" y="306.4" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="13" fill="#8f8466" letter-spacing="1.5">TITLES &amp; NAVIGATION</text>
+  <rect x="378" y="280" width="322" height="150" fill="#13100c" rx="8" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="394" y="306.4" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="13" fill="#8f8466" letter-spacing="1.5">VALUES &amp; INPUTS</text>
+  <rect x="716" y="280" width="322" height="150" fill="#13100c" rx="8" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="732" y="306.4" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="13" fill="#8f8466" letter-spacing="1.5">COMBAT TEXT</text>
+  <text x="56" y="344.4" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="28" fill="#e8c35a">Events</text>
+  <text x="56" y="374.0" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e9e2d0">Scroll Areas · Loot &amp; Money</text>
+  <text x="56" y="413.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">Friz Quadrata in game, Georgia as stand-in</text>
+  <text x="394" y="343.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="24" fill="#e9e2d0">+%a (%s - %n)</text>
+  <text x="394" y="374.0" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="15" fill="#d6c9a8">Speed 100 % · X 100 · Y −160</text>
+  <text x="394" y="413.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">Arial Narrow in game</text>
+  <rect x="732" y="318" width="290" height="74" fill="#222a33" rx="6"/>
+  <text x="747" y="347.8" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="26" xml:space="preserve"><tspan fill="#000000">472</tspan></text>
+  <text x="746" y="346.8" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="26" xml:space="preserve"><tspan fill="#ffffff">472</tspan></text>
+  <text x="817" y="348.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="18" xml:space="preserve"><tspan fill="#000000">3</tspan></text>
+  <text x="816" y="347.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="18" xml:space="preserve"><tspan fill="#a1db65">3</tspan></text>
+  <text x="847" y="348.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="18" xml:space="preserve"><tspan fill="#000000">-312</tspan></text>
+  <text x="846" y="347.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="18" xml:space="preserve"><tspan fill="#ff0000">-312</tspan></text>
+  <text x="747" y="377.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="18" xml:space="preserve"><tspan fill="#000000">+1 Combo Point (3)</tspan></text>
+  <text x="746" y="376.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="18" xml:space="preserve"><tspan fill="#ff8000">+1 Combo Point (3)</tspan></text>
+  <text x="732" y="413.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">MSBT Porky 18 / crit 26 in game</text>
+  <!-- controls and their states -->
+  <text x="40" y="466.4" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="13" fill="#8f8466" letter-spacing="1.5">CONTROLS</text>
+  <rect x="40" y="476" width="240" height="220" fill="#13100c" rx="8" stroke="#3a2f1d" stroke-width="1"/>
+  <rect x="300" y="476" width="240" height="220" fill="#13100c" rx="8" stroke="#3a2f1d" stroke-width="1"/>
+  <rect x="560" y="476" width="240" height="220" fill="#13100c" rx="8" stroke="#3a2f1d" stroke-width="1"/>
+  <rect x="820" y="476" width="240" height="220" fill="#13100c" rx="8" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="56" y="499.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">Checkboxes</text>
+  <rect x="56" y="516" width="22" height="22" fill="#2a2112" rx="4" stroke="#e8c35a" stroke-width="2"/>
+  <path d="M4 12l5 5L20 6" fill="none" stroke="#e8c35a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(59.96 519.96) scale(0.587)"/>
+  <text x="88" y="530.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">On</text>
+  <rect x="56" y="556" width="22" height="22" fill="#0e0b08" rx="4" stroke="#6e5a33" stroke-width="2"/>
+  <text x="88" y="570.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0">Off</text>
+  <rect x="56" y="596" width="22" height="22" fill="#1d1813" rx="4" stroke="#3a2f1d" stroke-width="2"/>
+  <text x="88" y="610.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#6e6656">Locked</text>
+  <text x="316" y="499.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">Buttons</text>
+  <rect x="316" y="512" width="208" height="40" fill="#7d1d12" rx="6" stroke="#e8c35a" stroke-width="1"/>
+  <text x="420" y="536.5" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#ffe39a" text-anchor="middle">Apply</text>
+  <rect x="316" y="562" width="208" height="40" fill="#241d14" rx="6" stroke="#6e5a33" stroke-width="1"/>
+  <text x="420" y="586.5" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#e9e2d0" text-anchor="middle">Cancel</text>
+  <rect x="316" y="612" width="208" height="40" fill="#1d1813" rx="6" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="420" y="636.5" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="15" fill="#6e6656" text-anchor="middle">Locked</text>
+  <text x="576" y="499.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">Choice and input</text>
+  <rect x="576" y="512" width="208" height="36" fill="#0e0b08" rx="8" stroke="#3a2f1d" stroke-width="1"/>
+  <rect x="579" y="515" width="64.6667" height="30" fill="#7d1d12" rx="6"/>
+  <text x="611.333" y="533.9" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="13" fill="#ffe39a" text-anchor="middle">Left</text>
+  <text x="680" y="533.9" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="13" fill="#d6c9a8" text-anchor="middle">Center</text>
+  <text x="748.667" y="533.9" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="13" fill="#d6c9a8" text-anchor="middle">Right</text>
+  <text x="576" y="571.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">Output, focused</text>
+  <rect x="576" y="582" width="208" height="38" fill="#0e0b08" rx="6" stroke="#e8c35a" stroke-width="1"/>
+  <rect x="574" y="580" width="212" height="42" fill="none" rx="8" stroke="#e8c35a" stroke-width="2" opacity="0.25"/>
+  <text x="588" y="605.8" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="16" fill="#e9e2d0">%a (%s)</text>
+  <text x="836" y="499.6" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="12" fill="#a89b80">Preview, area, color</text>
+  <rect x="836" y="512" width="208" height="32" fill="#0b0907" rx="4" stroke="#2c241a" stroke-width="1"/>
+  <text x="849" y="534.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="18" xml:space="preserve"><tspan fill="#000000">318</tspan></text>
+  <text x="848" y="533.4" font-family="'MSBT Porky', 'Arial Black', Impact, sans-serif" font-size="18" xml:space="preserve"><tspan fill="#f4a8e4">318</tspan></text>
+  <rect x="889.64" y="518" width="20" height="20" fill="#5a3a6b" stroke="#000000" stroke-width="1"/>
+  <path d="M15 4a8 8 0 1 0 5 13a7 7 0 0 1-5-13z" fill="none" stroke="#f5efe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(891.84 520.2) scale(0.650)"/>
+  <rect x="836" y="560" width="96" height="24" fill="#241d14" rx="12" stroke="#4a3d27" stroke-width="1"/>
+  <text x="884" y="575.4" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="13" fill="#d6c9a8" text-anchor="middle">Outgoing</text>
+  <rect x="836" y="600" width="30" height="30" fill="#ffffff" rx="6" stroke="#3a2f1d" stroke-width="2"/>
+  <rect x="874" y="600" width="30" height="30" fill="#ffff00" rx="6" stroke="#3a2f1d" stroke-width="2"/>
+  <rect x="912" y="600" width="30" height="30" fill="#f4a8e4" rx="6" stroke="#e8c35a" stroke-width="2"/>
+  <!-- sizes -->
+  <text x="40" y="734.4" font-family="'Friz Quadrata TT', Marcellus, Georgia, serif" font-size="13" fill="#8f8466" letter-spacing="1.5">SIZES</text>
+  <rect x="40" y="744" width="104" height="34" fill="#13100c" rx="17" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="92" y="764.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0" text-anchor="middle">Grid 4 px</text>
+  <rect x="152" y="744" width="196" height="34" fill="#13100c" rx="17" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="250" y="764.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0" text-anchor="middle">Table row 44 px (now 25)</text>
+  <rect x="356" y="744" width="226" height="34" fill="#13100c" rx="17" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="469" y="764.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0" text-anchor="middle">Buttons 34–40 px (now 15–24)</text>
+  <rect x="590" y="744" width="118" height="34" fill="#13100c" rx="17" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="649" y="764.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0" text-anchor="middle">Corners 6 px</text>
+  <rect x="40" y="788" width="264" height="34" fill="#13100c" rx="17" stroke="#3a2f1d" stroke-width="1"/>
+  <text x="172" y="808.2" font-family="'Arial Narrow', 'Roboto Condensed', Arial, sans-serif" font-size="14" fill="#e9e2d0" text-anchor="middle">Window 1200–1440 × 900, resizable</text>
+</svg>
